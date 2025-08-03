@@ -2,13 +2,17 @@
 
 **Goal**: Understanding the relationship between exposure to H2S and cognitive performance using two different mask types, as well as an interaction effect between exposure levels and mask type.
 
+**Files in this Repo**: 
+- Script.R: R code used for this project
+- Full_Report.pdf: Report including figures and interpretation of results.
+
 **Background**: The subset of data analyzed here includes 200 employees working in industrial environments with exposure to hydrogen sulfide, a toxic gas known to affect attention, reaction time, and working memory. Participants completed regular work tasks for 60 minutes wearing either a new respiratory mask or a standard model, while average airborne concentration of hydrogen sulfide was measured in parts per million. Afterwards, participants completed a cognitive performance test, scored on a 0-100 scale where higher scores reflect higher cognitive performance. Using Null Hypothesis Significance Testing (NHST) and Bayesian hierarchical linear regression, I estimate and compare the following two models: 
 
 - Model 1 (M1): The first model includes the main effects of mask type and exposure level, assuming that the fixed effects are additive and linear. 
 
 - Model 2 (M2): The second model expands upon M1 by including an interaction term between exposure level and mask type, allowing the effect of exposure on performance to vary by mask type. 
 
-**Tools for Analysis**: Data was analyzed in R (v. 4.2.2) and the main script is in this repo as "Script.R"
+**Tools for Analysis**: Data was analyzed in R (v. 4.2.2).
 
 Packages used include:
 
